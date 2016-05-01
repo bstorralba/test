@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<title>My Profile</title>
+
+	<link rel="stylesheet" href="css/myprofile.css">
+
+</header>
+<body>
+
+  <div class="panel panel-info panel-border panel-bg pbody" style="">
+    <div class="panel-body panelbody">
+      <div class="row">
+        <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3"><img></div>
+        <div class="col-md-9 col-xs-12 col-sm-9 col-lg-9">
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Member ID:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="membershipIDTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 overflowTexts">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                First  Name:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="fnameTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Middle  Name:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="mNameTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Last  Name:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="lNameTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Gender:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="genderTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Date of Birth:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="dobTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Age:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="ageTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Age bracket:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="ageBracketTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Address:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="addressTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Contact No:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="contactNoTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Email:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="emailTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Educational Attainment:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="educAttTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Civil Status:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="civStatTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Religion:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="religionTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Occupation:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="occuTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Membership Type:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="memTypeTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Membership Rank:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="memRankTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Membership Category:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="memCatTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Register No:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="regNoTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Registerd Date:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="regDateTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Volume No:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="volNoTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                Page No:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="pageNoTxt"></span>
+              </div>
+              <br>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+              <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nopadding overflowTexts" style="padding-left:0px">
+                ID No:
+              </div>
+              <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8 nopadding overflowTexts">
+                <span id="idNOTxt"></span>
+              </div>
+              <div class="col-md-12 nopadding"><hr style="margin-top:10px"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+  <script src="js/cookie.js"></script>
+  <script src="js/myprofile.js"></script>
+</body>
+</html>
